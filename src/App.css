@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #24aeea;
+}
+.container {
+  width: 50vw;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 1px, 1px, rgb(255, 255, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+#mainDiv {
+  display: none;
+  border: 1px solid rgb(11, 10, 10);
+  border-radius: 10px;
+  background-color: white;
+  min-height: 80vh;
+  max-height: auto;
+}
+.active {
+  height: 80vh;
+  max-height: auto !important;
+  display: block;
+}
+.getStart {
+  margin: 10px auto;
+  width: 25%;
+}
+.getStart button {
+  width: 10vw;
+  height: 7vh;
+  border-radius: 5px;
+  background-color: #0b85ba;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.getStart button:hover {
+  width: 12vw;
+  background-color: #24aeea;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+#AddTodo {
+  border: 1px solid #24aeea;
+  width: 65%;
+  height: 3vh;
+  border-radius: 5px;
+  margin-left: 3rem;
+  font-size: 1.3rem;
+  padding: 10px;
+  outline: none;
+}
+#submit {
+  height: 6vh;
+  width: 15%;
+  margin-left: 1rem;
+  font-size: 26px;
+}
+li {
+  border: 1px solid black;
+  width: 83%;
+  height: 6vh;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 2rem;
+  margin-top: 10px;
+  background-color: #95daf9;
+  font-size: 20px;
+}
+li input {
+  width: 60%;
+  height: 5vh;
+  font-size: 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.btn {
+  position: relative;
+  left: 21rem;
+  top: -1.5rem;
+  width: 36%;
+}
+.btns {
+  font-size: 20px;
+  width: 33%;
+  height: 5vh;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+#deleteBtn {
+  background: red;
+  color: white;
+}
+#saveBtn {
+  margin-left: 6rem;
+  width: 50%;
+}
+#noData {
+  border: 1px solid red;
+  border-width: 2px 10px;
+  height: 17vh;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5rem;
+  width: 93%;
+}
